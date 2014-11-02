@@ -1,5 +1,8 @@
 Vim profile
 =======================
+
+作者:git@github.com:wklken/k-vim.git
+
 # 安装步骤
 ## 安装依赖包
 
