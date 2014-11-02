@@ -7,10 +7,12 @@ Vim profile
 
 #### ubuntu
 `sudo apt-get install ctags`
+
 `sudo apt-get install build-essential cmake python-dev`
 
 #### centos
 `sudo yum install python-devel.x86_64`
+
 `sudo yum groupinstall 'Development Tools'`
 
 #### mac
@@ -18,7 +20,9 @@ Vim profile
 
 ### 使用Python
 `sudo pip install pyflakes`
+
 `sudo pip install pylint`
+
 `sudo pip install pep8`
 
 ### 使用Javascript
@@ -27,12 +31,16 @@ Vim profile
 
 ####ubuntu
 `sudo apt-get install nodejs npm`
+
 `sudo npm install -g jslint`
+
 `sudo npm install jshint -g`
 
 ####mac
 `brew install node`
+
 `npm install jshint -g`
+
 `npm install jslint -g`
 
 ## 安装
@@ -51,6 +59,7 @@ Vim profile
 
 
 `cd ~/.vim/bundle/YouCompleteMe`
+
 `./install.sh --clang-completer`
 
 YCM[文档](https://github.com/Valloric/YouCompleteMe)
@@ -60,19 +69,24 @@ YCM[文档](https://github.com/Valloric/YouCompleteMe)
 ###安装新插件
 
 1. vimrc.bundles中配置对应插件
+
 `Bundle 'xxx/xxxx'`
+
 2. 命令行模式，执行:
+
 `:BundleInstall`
 
 ###更新插件(注意如果YCM更新, 可能需要重编译, 否则自动补全可能失效)
 
 命令行模式，执行:
+
 `:BundleUpdate`
 
 ###删除插件
 
 1. vimrc.bundles中注释或删除对应插件bundle配置行(行首加一个双引号)
 2. 命令行模式，执行: (会物理上删除插件文件)
+
 `:BundleClean`
 
 ---------------------------------
