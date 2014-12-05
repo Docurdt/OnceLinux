@@ -28,7 +28,9 @@ lnif() {
 }
 
 clone_repo() {
-   git clone "$git_uri" "$app_dir"
+   mkdir "$app_dir"
+   cp .vimrc "$app_dir"
+   cp .vimrc.bundles "$app_dir"
    ret="$?"
    success "$1"
 }
