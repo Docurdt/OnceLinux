@@ -1,0 +1,68 @@
+" Basics {
+    set nocompatible        " Must be first line
+    set background=dark     " Assume a dark background
+" }
+" Setup Bundle Support {
+    " The next three lines ensure that the ~/.vim/bundle/ system works
+    filetype off
+    set rtp+=~/.vim/bundle/vundle
+    call vundle#rc()
+" }
+
+" Bundles {
+    " Deps {
+        Bundle 'gmarik/vundle'
+        Bundle 'MarcWeber/vim-addon-mw-utils'
+        Bundle 'tomtom/tlib_vim'
+    " }
+    " General {
+            Bundle 'scrooloose/nerdtree'
+            Bundle 'tomasr/molokai'
+            let g:molokai_original = 1
+            Bundle 'bling/vim-airline'
+            Bundle 'Lokaltog/vim-easymotion'
+            Bundle 'nathanaelkane/vim-indent-guides'
+            Bundle 'mhinz/vim-signify'
+            Bundle 'bronson/vim-trailing-whitespace'
+            Bundle 'kien/rainbow_parentheses.vim'
+    " }
+
+    " Writing {
+    " }
+
+    " General Programming {
+            Bundle 'scrooloose/syntastic'
+            "{
+            Bundle 'mattn/webapi-vim'
+            Bundle 'mattn/gist-vim'
+            "}
+            Bundle 'scrooloose/nerdcommenter'
+            Bundle 'godlygeek/tabular'
+    " }
+
+    " AutoComplete {
+            Bundle 'Shougo/neocomplete.vim.git'
+    " }
+
+    " Python {
+    " }
+
+    " Javascript {
+            Bundle 'elzr/vim-json'
+            Bundle 'groenewege/vim-less'
+            Bundle 'pangloss/vim-javascript'
+            Bundle 'briancollins/vim-jst'
+            Bundle 'kchmck/vim-coffee-script'
+    " }
+
+    " HTML {
+            Bundle 'hail2u/vim-css3-syntax'
+            Bundle 'gorodinskiy/vim-coloresque'
+            Bundle 'tpope/vim-haml'
+    " }
+
+    " Markdown {
+            Bundle 'tpope/vim-markdown'
+            Bundle 'spf13/vim-preview'
+    " }
+" }
