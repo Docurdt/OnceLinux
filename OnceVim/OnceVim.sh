@@ -2,7 +2,6 @@
 
 app_name="OnceVim"
 app_dir="$HOME/.OnceVim"
-[ -z "$git_uri" ] && git_uri="https://github.com/OnceMore2020/OnceVim.git"
 [ -z "$VUNDLE_URI" ] && VUNDLE_URI="https://github.com/gmarik/vundle.git"
 
 msg() {
