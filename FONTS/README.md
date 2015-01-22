@@ -1,25 +1,9 @@
 字体安装配置
 
-创建文件夹在用户目录下，方便管理：
+# WPS for linux 字体包
 
-`mkdir ~/.fonts`
+`sudo apt-get install symbol－fonts_all.deb`
 
-拷贝字体到创建的文件夹：
+# 字体安装
 
-`cp * -r ~/.fonts/`
-
-获取字体权限(可选)：
-
-`sudo chmod a+x ~/.fonts`
-
-创建索引数据：
-
-`cd ~/.fonts`
-
-`mkfontscale`
-
-`mkfontdir`
-
-更新字体库：
-
-`fc-cache -vf`
+`./install.sh`可自动安装所有字体
