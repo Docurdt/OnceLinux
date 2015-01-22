@@ -1,11 +1,8 @@
-About
------
+Tmux配置文件
 
-tmux environment made easy.
+# 截图
+![tmux](https://github.com/OnceMore2020/OnceLinux/tree/master/TMUXPROFILE/tmux.png)
 
-![tmux](https://github.com/xuxiaodong/tmuxen/raw/master/screenshot.png)
+# 安装
 
-Installation
-------------
-
-    git clone git://github.com/xuxiaodong/tmuxen.git
+`./install-tmuxen`
