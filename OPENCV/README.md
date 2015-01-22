@@ -2,4 +2,4 @@
 https://github.com/Itseez/opencv/releases
 
 # 安装指南
-oncemore2020.github.io/blog/opencv2install
+[OpenCV2.4.x在Ubuntu下的安装](oncemore2020.github.io/blog/opencv2install)
