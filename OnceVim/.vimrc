@@ -77,7 +77,7 @@
     set smartcase                   " 搜索输入含大写时切换为大小写敏感
     "}
     "{ 显示多余空白字符
-    set list                        
+    set list
     set listchars=tab:›\ ,trail:•,extends:#,nbsp:.
     "}
 " }
@@ -193,6 +193,9 @@
     " }
 
     " NeoComplete {
+        hi Pmenu  guifg=#000000 guibg=#F8F8F8 ctermfg=black ctermbg=Lightgray
+        hi PmenuSbar  guifg=#8A95A7 guibg=#F8F8F8 gui=NONE ctermfg=darkcyan ctermbg=lightgray cterm=NONE
+        hi PmenuThumb  guifg=#F8F8F8 guibg=#8A95A7 gui=NONE ctermfg=lightgray ctermbg=darkcyan cterm=NONE
         " NeoComplete's Comfiguration Example
         " Disable AutoComplPop.
         let g:acp_enableAtStartup = 0
