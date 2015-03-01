@@ -35,11 +35,7 @@ clone_repo() {
 }
 
 clone_vundle() {
-    if [ ! -e "$HOME/.vim/bundle/vundle" ]; then
-        git clone $VUNDLE_URI "$HOME/.vim/bundle/vundle"
-    else
-        upgrade_repo "vundle"   "Successfully updated vundle"
-    fi
+    git clone $VUNDLE_URI "$HOME/.vim/bundle/vundle"
     ret="$?"
     success "$1"
 }
