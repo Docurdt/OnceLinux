@@ -42,6 +42,8 @@ OnceVim-VIM配置文件
 ###  neocomplete
 自动补全神器，采用了Neocomplete的Github源上的示例配置:[Neocomplete](https://github.com/Shougo/neocomplete.vim)
 
+注意：需要开启`if_lua`模块且vim版本大于7.3.885，一般Ubuntu中安装了vim-gnome或vim-gtk后即满足条件。
+
 ### python-mode
 "The plugin contains all you need to develop python applications in Vim!"
 
