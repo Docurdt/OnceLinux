@@ -29,10 +29,7 @@
 
     " General Programming {
             Bundle 'scrooloose/syntastic'
-            "{
-            Bundle 'mattn/webapi-vim'
             Bundle 'mattn/gist-vim'
-            "}
             Bundle 'scrooloose/nerdcommenter'
             Bundle 'godlygeek/tabular'
     " }
