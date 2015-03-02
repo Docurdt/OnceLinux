@@ -136,10 +136,6 @@
         endif
     " }
 
-    " Vim-preview {
-        let g:PreviewBrowsers='google-chrome'
-    " }
-
     " NerdTree {
         if isdirectory(expand("~/.vim/bundle/nerdtree"))
             map <C-e> <plug>NERDTreeTabsToggle<CR>

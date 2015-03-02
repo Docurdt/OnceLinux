@@ -52,6 +52,5 @@
 
     " Markdown {
             Bundle 'tpope/vim-markdown'
-            Bundle 'spf13/vim-preview'
     " }
 " }
