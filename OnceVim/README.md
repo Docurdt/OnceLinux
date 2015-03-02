@@ -3,6 +3,15 @@ OnceVim-VIM配置文件
 # What's this?
 集成化的VIM配置文件，主要针对html,css,python,markdown,C/C++等编程语言优化。
 
+# 准备工作
+**Very Important**一般linux发行版均自带vim，但是在一些发行版中python interface存在问题，
+或GTK2.x和GTK3.x存在冲突，导致在编写python程序时在某些情况下输入`.`后会异常退出，
+解决方案是卸载系统中的所有vim包，然后采用(以Ubuntu/Debian为例):
+
+`sudo apt-get install vim-athena`
+
+来安装vim。
+
 # 安装
 `sh ./uninstall.sh`
 `sh ./OnceVim.sh`
@@ -31,7 +40,6 @@ OnceVim-VIM配置文件
 * vim-indent-guides       : 可视化缩进层次
 * signify:将文本的增加，修改和删除在行号前可视化标记(基于版本控制系统)
 * vim-trailing-whitespace : 高亮行末多余空白字符，并可采用`:FixWhitespace`来批量删除
-* vim-preview:支持markdown,html等文档的预览，使用`,P`开启预览。
 * vim-easymotion:使用`,,w`,`,,b`快速移动
 
 
