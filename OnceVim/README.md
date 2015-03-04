@@ -1,7 +1,7 @@
 OnceVim-VIM配置文件
 =======
 # What's this?
-集成化的VIM配置文件，主要针对html,css,python,markdown,C/C++等编程语言优化。
+集成化的VIM配置文件，主要针对html,css,python,markdown等编程语言优化。
 
 # 准备工作
 **Very Important**一般linux发行版均自带vim，但是在一些发行版中python interface存在问题，
