@@ -148,6 +148,12 @@
         endif
     " }
 
+    " Python-Mode {
+        " 关闭PyMode的自动补全
+        let g:pymode_rope_completion = 0
+        let g:pymode_robe_autoimport = 0
+    " }
+
     " Tabularize {
         if isdirectory(expand("~/.vim/bundle/tabular"))
             nmap <Leader>a& :Tabularize /&<CR>
