@@ -18,7 +18,6 @@
     " General {
             Bundle 'scrooloose/nerdtree'
             Bundle 'tomasr/molokai'
-            let g:molokai_original = 1
             Bundle 'bling/vim-airline'
             Bundle 'Lokaltog/vim-easymotion'
             Bundle 'nathanaelkane/vim-indent-guides'
