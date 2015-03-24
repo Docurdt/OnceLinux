@@ -25,9 +25,21 @@ OnceCLI
 更多快捷键组合可在`~/.tmux.conf`文件中查找。
 
 # 安装
-首先`git clone https://github.com/OnceMore2020/OnceLinux`后进入`OnceCLI`目录，然后执行`sh -x install.sh`或`./install.sh`。
+首先`git clone https://github.com/OnceMore2020/OnceLinux`，进入FONTS目录执行
 
-**注意：该安装脚本会增加~/.bashrc的内容，建议在安装前在~/.bashrc文本末尾加一个标记，如一行===，这样方便在解除安装时定位需要删除的内容**
+`sh -x install.sh`或`./install.sh`
+
+安装需要用到的字体。
+
+然后后进入`OnceCLI`目录，执行
+
+`sh -x install.sh`或`./install.sh`
+
+完成安装。
+
+**注意(字体安装):执行脚本后同样会安装一些Windows常用字体(simsun,sumhei,simkai,MSyahei,...),Adobe字体(Surce-code-pro,source-sans-han,Adobe-song,kai,hei...)，字体安装脚本的初衷是将LaTeX写作需要用到的中文字体集成化安装，后期才加进去了Powerline fonts的安装。**
+
+**注意（~/.bashrc)：该安装脚本会增加~/.bashrc的内容，建议在安装前在~/.bashrc文本末尾加一个标记，如一行===，这样方便在解除安装时定位需要删除的内容**
 
 # 说明
 主要用到的三个repo均设置为隐藏文件夹，同时保留了原repo的README,可进入相应目录进行查看。
