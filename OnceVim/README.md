@@ -13,7 +13,10 @@ OnceVim-VIM配置文件
 来安装vim。
 
 # 安装
+首先`git clone https://github.com/OnceMore2020/OnceLinux`后进入OnceVim目录，然后输入下面指令：
+
 `sh ./uninstall.sh`
+
 `sh ./OnceVim.sh`
 
 # 卸载
