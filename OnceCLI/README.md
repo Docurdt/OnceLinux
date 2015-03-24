@@ -1,6 +1,8 @@
 OnceCLI
 ==================
 通过一系列终端应用的组合，搭建高效的CLI体验
+![OnceCLI](https://github.com/OnceMore2020/OnceLinux/raw/master/OnceCLI/OnceCLI.png)
+
 
 # 主要依赖的终端应用
 配置之前确保计算机中已安装下列软件的较新版本
@@ -24,3 +26,8 @@ OnceCLI
 
 # 安装
 首先`git clone https://github.com/OnceMore2020/OnceLinux`后进入`OnceCLI`目录，然后执行`sh -x install.sh`或`./install.sh`。
+
+**注意：该安装脚本会增加~/.bashrc的内容，建议在安装前在~/.bashrc文本末尾加一个标记，如一行===，这样方便在解除安装时定位需要删除的内容**
+
+# 说明
+主要用到的三个repo均设置为隐藏文件夹，同时保留了原repo的README,可进入相应目录进行查看。
